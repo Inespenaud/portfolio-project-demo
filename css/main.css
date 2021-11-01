@@ -11,7 +11,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Source+Sans+Pro&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Lora&family=Merriweather&family=Merriweather+Sans:wght@300;400&family=Source+Sans+Pro&display=swap');
 
 html {
   color: #222;
