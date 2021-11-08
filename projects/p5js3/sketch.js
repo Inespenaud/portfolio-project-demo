@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-  background(51);
+  background(000);
   // Run all the boids
   for (let i = 0; i < boids.length; i++) {
     boids[i].run(boids);
@@ -27,7 +27,7 @@ function draw() {
 // Methods for Separation, Cohesion, Alignment added
 class Boid {
   constructor(x, y) {
-    this.acceleration = createVector(0, 0);
+    this.acceleration = createVector(7, 0);
     this.velocity = p5.Vector.random2D();
     this.position = createVector(x, y);
     this.r = 3.0;
@@ -140,7 +140,7 @@ class Boid {
   // For every nearby boid in the system, calculate the average velocity
   align(boids) {
     let neighbordist = 50;
-    let sum = createVector(0, 0);
+    let sum = createVector(0, 7);
     let count = 0;
     for (let i = 0; i < boids.length; i++) {
       let d = p5.Vector.dist(this.position, boids[i].position);
