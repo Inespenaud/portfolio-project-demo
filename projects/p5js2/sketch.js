@@ -8,7 +8,7 @@
 let r, g, b;
 
 function setup() {
-  createCanvas(720, 400);
+  createCanvas(720, 720);
   // Pick colors randomly
   r = random(255);
   g = random(255);
