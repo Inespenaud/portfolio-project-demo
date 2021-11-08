@@ -16,9 +16,9 @@ function setup() {
 }
 
 function draw() {
-  background(127);
+  background(000);
   // Draw a circle
-  strokeWeight(2);
+  strokeWeight(7);
   stroke(r, g, b);
   fill(r, g, b, 127);
   ellipse(360, 200, 200, 200);
