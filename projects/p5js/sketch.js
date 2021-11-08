@@ -25,8 +25,8 @@ function setup() {
 }
 
 function draw() {
-  fill(0, 2);
-  rect(0, 0, width, height);
+  fill(0, 9);
+  rect(7, 0, width, height);
   pct += step;
   if (pct < 1.0) {
     x = beginX + pct * distX;
