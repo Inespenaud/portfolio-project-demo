@@ -17,10 +17,10 @@ body {
 :root {
   --wf-gray: #434E59;
   --wf-light-gray: #E6ECF2;
-  --wf-bright-yellow: #F2BC1B;
-  --wf-medium-yellow: #CF9730;
-  --wf-medium-brown: #CF9730;
-  --wf-deep-brown: #736048;
+  --wf-bright-yellow: #23abbe;
+  --wf-medium-yellow: #ea9a2c;
+  --wf-medium-brown: #ea9a2c;
+  --wf-deep-brown: #df7d96;
   --body-text-color: var(--wf-medium-brown);
 }
 
@@ -205,16 +205,16 @@ p, li {
     background-color: #E6ECF2;
   }
     .color-bright-yellow {
-    background-color: #F2BC1B;
+    background-color: #23abbe;
   }
     .color-medium-yellow {
-    background-color: #CF9730;
+    background-color: #ea9a2c;
   }
     .color-medium-brown {
-    background-color: #A66312;
+    background-color: #e2712b;
   }
     .color-deep-brown {
-    background-color: #736048;
+    background-color: #df7d96;
   }
 
 
@@ -265,7 +265,7 @@ p, li {
 /* -- buttons -- */
 
 .button {
-  background-color: #CF9730; 
+  background-color: #ea9a2c; 
   border: none;
   color: white;
   padding: 8px 32px;
@@ -280,36 +280,36 @@ p, li {
 }
 
 .button1 {
-  background-color: #CF9730; 
+  background-color: #ea9a2c; 
   color: white; 
 }
 
 .button1:hover {
-  background-color: #A66312;
+  background-color: #e2712b;
   color: white;
 }
 
 .button2 {
   background-color: white; 
-  color: #A66312; 
-  border: 2px solid #736048;
+  color: #e2712b; 
+  border: 2px solid #df7d96;
 }
 
 .button2:hover {
   background-color: white; 
-  color: #A66312; 
+  color: #e2712b; 
   border: 2px solid #F2B138;
 }
 
 .button3 {
-  background-color: #736048; 
+  background-color: #df7d96; 
   color: white; 
   opacity: 0.6;
   cursor: not-allowed;
 }
 
 .button3:hover {
-  background-color: #736048; 
+  background-color: #df7d96; 
   color: white; 
   opacity: 0.6;
   cursor: not-allowed;
@@ -324,7 +324,7 @@ input[type=text] {
   box-sizing: border-box;
   border: 1px solid #F2B138;
   border-radius: 2px;
-  color: #A66312; 
+  color: #e2712b; 
 
 }
 
@@ -332,7 +332,7 @@ input[type=text] {
 
 
 .dropbtn {
-  background-color: #736048; 
+  background-color: #df7d96; 
   box-shadow: 3px 3px 2px 1px rgba(22, 22, 22, .4);
   color: white;
   padding: 16px;
@@ -369,7 +369,7 @@ input[type=text] {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #A66312;
+  background-color: #e2712b;
 }
 
 /* -- switch -- */
@@ -506,7 +506,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #CF9730;
+  background-color: #ea9a2c;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
