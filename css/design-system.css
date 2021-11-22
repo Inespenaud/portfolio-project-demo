@@ -15,8 +15,8 @@ body {
 }
 
 :root {
-  --wf-gray: #434E59;
-  --wf-light-gray: #E6ECF2;
+  --wf-gray: #2b327d;
+  --wf-light-gray: #f2ea9c;
   --wf-bright-yellow: #23abbe;
   --wf-medium-yellow: #ea9a2c;
   --wf-medium-brown: #ea9a2c;
@@ -87,7 +87,7 @@ section {
 }
 
 .card-image {
-    background-color: #E6ECF2;
+    background-color: #f2ea9c;
     padding:1rem;
 }
 .card-image > img {
@@ -95,7 +95,7 @@ section {
 }
 
 .profile-card {
-    background-color: #434E59;
+    background-color: #2b327d;
     padding:1rem;
 }
 .profile-card > img {
@@ -198,11 +198,11 @@ p, li {
 
 
   .color-gray {
-    background-color: #434E59;
+    background-color: #2b327d;
   }
 
     .color-light-gray {
-    background-color: #E6ECF2;
+    background-color: #f2ea9c;
   }
     .color-bright-yellow {
     background-color: #23abbe;
@@ -500,7 +500,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 hr {
-  border: 1px solid #E6ECF2;
+  border: 1px solid #f2ea9c;
   margin-bottom: 25px;
 }
 
@@ -522,7 +522,7 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
-  background-color: #434E59;
+  background-color: #2b327d;
 }
 
 /* Float cancel and signup buttons and add an equal width */
