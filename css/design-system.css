@@ -15,13 +15,13 @@ body {
 }
 
 :root {
-  --wf-blue: #2b327d;
-  --wf-light-yellow: #f2ea9c;
-  --wf-aqua-blue: #23abbe;
-  --wf-medium-orange: #ea9a2c;
-  --wf-dark-orange: #ea9a2c;
-  --wf-pink: #df7d96;
-  --body-text-color: var(--wf-dark-orange);
+  --wf-gray: #2b327d;
+  --wf-light-gray: #f2ea9c;
+  --wf-bright-yellow: #23abbe;
+  --wf-medium-yellow: #ea9a2c;
+  --wf-medium-brown: #ea9a2c;
+  --wf-deep-brown: #df7d96;
+  --body-text-color: var(--wf-medium-brown);
 }
 
 /* Structure */
@@ -126,8 +126,8 @@ a {
 
 /* Typography */
 
-.header 
-
+.header {
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
@@ -197,7 +197,7 @@ p, li {
 
 
 
-  .color- {
+  .color-gray {
     background-color: #2b327d;
   }
 
